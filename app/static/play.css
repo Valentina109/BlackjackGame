@@ -1,0 +1,75 @@
+body{
+    background-color: #112b42;
+    text-align: center;
+    font-family:'Arial', sans-serif;
+    }
+h1 {
+    font-style: italic;
+    background-color: burlywood;
+    background-position: center;
+    color:#377ba8;
+    text-align: center;
+}
+.container{
+    width: 75%;
+    height: 500px;
+    display:flex;
+    table-layout:auto;
+    background-color: darkcyan;
+    text-align: center;
+    margin: auto;
+}
+
+
+.row1{
+  background-color: #062c09;
+  width: 200%;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: center;
+
+}
+#your-box{
+ margin: auto;
+  padding: 1%;
+  background-color: #062c09;
+  height: 125px;
+}
+#dealer-box{
+  padding: 15%;
+  background-color: #062c09;
+  height: 125px;
+}
+#your-box img, #dealer-box img{
+    height: 135px;
+    width: 95px;
+    padding: 1%;
+    margin-left:10px;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.buttons button{
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    margin: 1.5rem;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    box-shadow: black 0px 0px 5px 2px;
+}
+
+

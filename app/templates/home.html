@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome to Online Blackjack!</h1>
+    <img src= "{{url_for('static', filename='/playingcards.png')}}"height="300" width="300" alt="Image of Playing Cards" >
+    <div class="homeButtons">
+        <a href="/about">
+            <button>How to Play</button>
+        </a>
+        <a href="/playgame">
+            <button>New Game</button>
+        </a>
+        <a href="/leaderboard">
+            <button>Leaderboard</button>
+        </a>
+    </div>
+{% endblock %}
